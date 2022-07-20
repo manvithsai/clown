@@ -1,0 +1,17 @@
+label{
+font-size: 20px !important;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-success:hover{
+background-color: blue;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    margin-top: 20px;
+}
+@keyframes example{
+from{box-shadow: 1px 1px 38px red;}
+to{box-shadow: 1px 1px 38px aqua;}
+}
